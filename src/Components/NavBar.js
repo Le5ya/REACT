@@ -52,5 +52,6 @@ export const NavBar = () => (
         <LogIn>
             <ImgLogIn src={userImg} alt='user' />
             Войти</LogIn>
+
     </NavBarStyled>
 );
