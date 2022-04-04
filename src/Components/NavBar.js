@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import logoImg from '../image/logo.svg';
-import userImg from '../image/log-in.svg'
+import userImg from '../image/log-in.svg';
 
 const NavBarStyled = styled.header`
 position: fixed;
@@ -37,6 +37,7 @@ height: 45px;
 background-color: transparent;
 border: none;
 color: white;
+
 `;
 const ImgLogIn = styled.img`
 width: 32px;
@@ -51,7 +52,8 @@ export const NavBar = () => (
         </Logo>
         <LogIn>
             <ImgLogIn src={userImg} alt='user' />
-            Войти</LogIn>
+            <p> Войти</p>
+        </LogIn>
 
     </NavBarStyled>
-);
+); 
